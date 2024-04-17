@@ -1,0 +1,91 @@
+.App {
+  min-height:100vh;
+  text-align: center;
+  background-color: lavenderblush;
+  padding: 1rem 0 0 0;
+}
+html {
+  overflow: -moz-scrollbars-none;
+  scrollbar-width: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  h1{
+    font-size: 1.5rem;
+  }
+  h2{
+    font-size: 1.25rem;
+  }
+  h3{
+    font-size: 1rem;
+  }
+  p{
+    font-size: 0.75rem;
+  }
+  li{
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  h1{
+    font-size: 2.5rem;
+  }
+  h2{
+    font-size: 1.75rem;
+  }
+  h3{
+    font-size: 1.5rem;
+  }
+  p{
+    font-size: 1.25rem;
+  }
+  li{
+    font-size: 1.25rem;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1{
+  font-family: Snell Roundhand, cursive;
+  background: linear-gradient(to right, #f32170, 
+                    #ff6b08, #cf23cf, #eedd44);
+                    background-clip: text;
+                    -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text;
+}
+h3{
+  color: royalblue;
+}
+/* p,h3,li{
+  font-family: Apple Chancery, cursive;
+} */

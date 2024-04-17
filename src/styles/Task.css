@@ -1,0 +1,29 @@
+.task{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    vertical-align: middle;
+}
+ul{
+    margin: 10pt 0;
+    padding: 0%;
+    text-align: center;
+    font-size: 1rem;
+}
+@media screen and (max-width: 480px) {
+    ul{
+        font-size: 0.75rem;
+    }
+    .delete{
+        font-size: 0.75rem;
+    }
+}
+.delete{
+    margin: 5pt;
+    height: min-content;
+    width: min-content;
+    color: black;
+    background-color: red; 
+    border-color: red;
+}

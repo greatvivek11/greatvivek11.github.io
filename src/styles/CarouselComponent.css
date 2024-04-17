@@ -1,0 +1,21 @@
+.myCoverPic{
+    height: 40rem ;
+    width: 60rem ;
+    object-fit: cover;
+}
+@media screen and (max-width: 480px) {
+    .myCoverPic{
+        height: 30vmax ;
+        width: 40vmax ;
+    }
+}
+#caption h3{
+    color: yellow;
+}
+#caption p{
+    text-align: center;
+}
+.carousel{
+    margin: 10pt 0;
+    padding-top: 5%;  
+}

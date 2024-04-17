@@ -1,0 +1,66 @@
+.parent{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media screen and (max-width: 700px) {
+  .parent {
+    flex-direction: column;
+    padding-top: 10%;
+  }
+  .Image{
+    height:auto;
+    width:100%;
+  }
+  .badgeImage{
+    width:10vmax;
+  }
+}
+@media screen and (min-width: 1080px) {
+  .Image{
+    width:50vmax;
+  }
+  .badgeImage{
+    width:20vmax;
+  }
+}
+.Image{
+  height: auto;
+  width: 40vmax;
+  padding: 5pt;
+  float: left;
+}
+.badgeImage{
+  height: auto;
+  width: 15vmax;
+}
+
+.lists{
+margin-top: 10pt;
+}
+
+p{
+  padding: 5pt 0;
+  margin: 0 20pt;
+}
+
+li{
+  text-align: start;
+  padding: 5pt 0;
+  margin: 0 20pt;
+}
+.skillCards{
+  display: inline-block;
+  text-align: center;
+}
+a{
+  color: #005bff
+}
+#home_title{
+  padding: 0pc;
+  margin: 0pc;
+}
